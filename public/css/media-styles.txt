@@ -1,0 +1,850 @@
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+/* Style for HEADER1 */
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 1em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 0.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 0.3em;
+}
+
+/* Style for section element */
+section {
+    height: 300px;
+    padding-left: 40px;
+    padding-top: 25px;
+    }
+}
+
+
+/* Media for 1600 */
+@media (max-width: 1600px) {
+    /* Style for HEADER1 */
+h1 {
+    font-size: 10em;
+    font-family: 'Open Sans', "Raleway";
+    font-weight: 700;
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 5em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 2.6em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 1.1em;
+}
+
+/* Style for section element */
+section {
+    height: 550px;
+    padding-left: 90px;
+    padding-top: 60px;
+}
+}
+
+
+
+@media screen and (min-width: 1600px) {
+
+/* Style for HEADER1 */
+h1 {
+    font-size: 14em;
+    font-family: sans, 'Open Sans', "Raleway";
+}
+
+/* Style for HEADER2 */
+h2 {
+    font-size: 6em;
+}
+
+/* Style for HEADER3 */
+h3 {
+    font-size: 3em;
+}
+
+/* Style for HEADER6 */
+h6 {
+    font-size: 1.2em;
+}
+
+/* Style for section element */
+section {
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 65px;
+}
+}
