@@ -2,39 +2,35 @@
 <html ng-app="myApp">
     <head>
         <title ng-controller="HeadController" ng-bind="tabAuthor"></title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400|Source+Sans+Pro"/>
-    <link rel="stylesheet" href="public/css/bootstrap.css"/>
-    <link rel="stylesheet" href="public/css/style.css" />
-    <link rel="stylesheet" href="public/css/colors.css" />
-    <script src="https://kit.fontawesome.com/4be41913e8.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400|Source+Sans+Pro"/>
+        <link rel="stylesheet" href="public/css/bootstrap.css"/>
+        <link rel="stylesheet" href="public/css/style.css" />
+        <link rel="stylesheet" href="public/css/colors.css" />
+        <script src="https://kit.fontawesome.com/4be41913e8.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-whitesmoke">
-        <!-- CONTENT -->
         <main>
-        <div id="content">
-            <header id="header">
-                <h1>Marcin Goryca</h1>
-            </header>
-            <hr />
-            <section id="social" ng-controller="SocialController">
-            <div id="social-container">
-                <div><i class="fas fa-mobile-alt" title="Mobile"></i><span ng-bind="mobile"></span></div>
-                <div><i class="fab fa-skype" title="{{ skype.title }}"></i><span></span>{{ skype.address }}</div>
-                <div><i class="fas fa-envelope" title="Mail"></i><span>{{ mail.address }}</span></div>
-                <div><a ng-href="{{ facebook.address }}"><i class="fab fa-facebook" title="Facebook"></i></a></div>
-                <div><a ng-href="{{ youtube.address }}"><i class="fab fa-youtube" title="Youtube"></i></a></div>
-                <div><a ng-href="{{ instagram.address }}"><i class="fab fa-instagram" title="Instagram"></i></a></div>
-                <div><a ng-href="{{ twitter.address }}"><i class="fab fa-twitter" title="Twitter"></i></a></div>
-            </div>    
-            </section>
-        </div>
-        <footer id="foot">
-            <h6>Copyright &copy; Marcin Goryca</h6>
-        </footer>
+            <div id="content">
+                <header id="header">
+                    <h1>Marcin Goryca</h1>
+                </header>
+                <hr />
+                <div id="social-container">
+                    <div><i class="fas fa-mobile-alt" title="Mobile"></i><span></span></div>
+                    <div><i class="fab fa-skype" title="Skajpej"></i><span></span>marcin-goryca</div>
+                    <div><i class="fas fa-envelope" title="Mail"></i><span>marcin.goryca@gmail.com</span></div>
+                    <div><a><i class="fab fa-facebook" title="Facebook"></i></a></div>
+                    <div><a><i class="fab fa-youtube" title="Youtube"></i></a></div>
+                    <div><a><i class="fab fa-instagram" title="Instagram"></i></a></div>
+                    <div><a><i class="fab fa-twitter" title="Twitter"></i></a></div>
+                </div>    
+            </div>
+            <footer id="foot">
+                <h6>Copyright &copy; Marcin Goryca</h6>
+            </footer>
         </main>
-<script src="public/js/angular.min.js"></script>
-<script src="public/js/bootstrap.min.js"></script>
-<script src="public/js/popper.min.js"></script>
-<script src="public/js/myapp.js"></script>
-</body></html>
+        <script src="public/js/angular.min.js"></script>
+        <script src="public/js/bootstrap.min.js"></script>
+        <script src="public/js/popper.min.js"></script>
+    </body></html>
