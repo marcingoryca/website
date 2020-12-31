@@ -48,4 +48,20 @@
 
     console.log(user4.brown);
 
+    if ( !"name" in user3) {
+        console.log("There\'s no such property!");
+    } else {
+        console.log(user3.name);
+    }
+
+    // Output all user3 properties
+    for (let key in user3) {
+        console.log(key);
+    }
+
+    // Output all user3 properties and values
+    for (let key in user3) {
+        console.log(user3[key]);
+    }
+
 })();
