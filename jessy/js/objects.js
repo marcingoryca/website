@@ -48,6 +48,8 @@
 
     console.log(user4.brown);
 
+
+    // Checking if object has such property
     if ( !"name" in user3) {
         console.log("There\'s no such property!");
     } else {
