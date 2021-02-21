@@ -222,8 +222,8 @@ i.fas, i.fab {
     margin-top: 80px;
     padding-left: 100px;
     display: grid;
-    width: 75%;
-    grid-template-columns: repeat(8, 1fr);
+    width: 90%;
+    grid-template-columns: repeat(10, 1fr);
     font-size: 12px;
     justify-self: center;
 }
