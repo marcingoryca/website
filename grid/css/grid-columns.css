@@ -1,7 +1,7 @@
 #container {
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 30px;
+    grid-template-columns: 20% 100px 400px;
 }
 
 #container > div {
