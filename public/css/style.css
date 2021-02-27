@@ -65,6 +65,7 @@ header {
 /* ---- FOOTER ---- */
 footer {
     text-align: center;
+    /*position: relative;*/
 }
 
 /* ---- SECTION CLASS ---- */

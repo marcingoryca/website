@@ -1,0 +1,14 @@
+/* Linear-Gradient.css */
+.linear-gradient {
+    width: 300px;
+    height: 480px;
+    border-radius: 12px;
+    background: linear-gradient(26deg, #EE66AA, #88BBAF);
+}
+
+.repeating-gradient {
+    width: 300px;
+    height: 480px;
+    border-radius: 12px;
+    background: repeating-linear-gradient(0deg, red 2px, green 3px, blue 20px, orange 13px);
+}

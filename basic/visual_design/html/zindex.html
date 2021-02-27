@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <link rel="stylesheet" href="../css/main.css?ver=1.0">
+    <link rel="stylesheet" href="../css/zindex.css?ver=1.0">
+</head>
+<body>
+    <main>
+        <section id="content">
+            <h1>Z-Index</h1>
+
+            <div class="fullCard">
+                <div class="cardContent">
+                  <div class="cardText">
+                    <h4>Google</h4>
+                    <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+                  </div>
+                  <div class="cardLinks">
+                    <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
+                    <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+                  </div>
+                </div>
+              </div>
+
+              <nav id="navbar">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </nav>
+            </header>
+            <p>I shift up when the #navbar is fixed to the browser window.</p>
+
+            <section id="left">
+                <h2>Content</h2>
+                <p>Good stuff</p>
+              </section>
+              <aside id="right">
+                <h2>Sidebar</h2>
+                <p>Links</p>
+              </aside>
+
+              <div class="first"></div>
+<div class="second"></div>
+
+              <div class="fullCard">
+                <div>
+                    When elements are positioned to overlap (i.e. using position: absolute | relative | fixed | sticky), 
+                    the element coming later in the HTML markup will, by default, appear on the top of the other elements. 
+                    However, the z-index property can specify the order of how elements are stacked on top of one another. 
+                    It must be an integer (i.e. a whole number and not a decimal), and higher values for the z-index 
+                    property of an element move it higher in the stack than those with lower values.
+                </div>
+              </div>
+        </section>
+    </main>
+</body>
+</html>

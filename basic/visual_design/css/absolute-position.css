@@ -1,0 +1,12 @@
+/* Absolute-Position.css */
+#searchsection {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    border-radius: 2px;
+}
+#searchbar {
+    position: absolute;
+    right: 40px;
+    top: 60px;
+}

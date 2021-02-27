@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-Scale</title>
+    <link rel="stylesheet" href="../css/main.css?ver=1.0">
+    <link rel="stylesheet" href="../css/transform-scale.css?ver=1.0">
+</head>
+<body>
+    <main>
+        <section id="content">
+            <h1>Transform-Scale</h1>
+
+            <div>
+                To change the scale of an element, CSS has the transform property, along with its scale() function. The following code example doubles the size of all the paragraph elements on the page:
+
+p {
+  transform: scale(2);
+}
+            </div>
+
+            <div class="ball" id= "ball1"></div>
+            <div class="ball" id= "ball2"></div>
+
+            <div>
+                The transform property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as :hover that specify a certain state of an element, the transform property can easily add interactivity to your elements.
+
+Here's an example to scale the paragraph elements to 2.1 times their original size when a user hovers over them:
+
+p:hover {
+  transform: scale(2.1);
+}
+Note: Applying a transform to a div element will also affect any child elements contained in the div.
+            </div>
+
+            <div id="one"></div>
+        </section>
+    </main>
+</body>
+</html>
