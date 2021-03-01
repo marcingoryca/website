@@ -1,0 +1,47 @@
+/* Animation.css */
+button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+  }
+
+  @keyframes background-color {
+      0% {
+          background-color: yellow;
+          width: 10%;
+      }
+      100% {
+          background-color: blue;
+          width: 90%;
+      }
+  }
+
+#wheel {
+      width: 160px;
+      height: 160px;
+      border-radius: 50px;
+      background-color: orange;
+      animation-name: move-wheel;
+      animation-duration: 2s;
+  }
+
+  @keyframes move-wheel {
+      0% {
+          top: 10px;
+      }
+      45% {
+          top: 100px;
+      }
+      50% {
+          top: 250px;
+        }
+        100% {
+            top: 500px;
+        }
+  }

@@ -1,0 +1,34 @@
+/* Keyframes.css */
+div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 3s;
+  }
+/*
+  @keyframes rainbow {
+      0% {
+          background-color: red;
+      }
+      10% {
+          background-color: yellow;
+      }
+      37% {
+          background-color: violet;
+        }
+        79% {
+            background-color: orange;
+        }
+        100% {
+            background-color: blue;
+        }
+  }
+
+*/
+
