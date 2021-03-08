@@ -1,4 +1,7 @@
 /* Box-Shadow.css */
+#content {
+  position: relative;
+}
 h4 {
     text-align: center;
     background-color: rgba(45, 45, 45, 0.1);
@@ -17,7 +20,7 @@ h4 {
 
 
   .fullCard {
-    width: 245px;
+    width: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px 5px;
@@ -30,3 +33,11 @@ h4 {
   .cardText {
     margin-bottom: 30px;
   }
+
+.sampler {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  border: 1px solid blueviolet;
+  padding: 40px;
+}

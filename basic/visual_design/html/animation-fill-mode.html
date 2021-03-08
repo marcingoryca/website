@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation-Fill-Mode</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css?ver=1.0">
     <link rel="stylesheet" href="../css/animation-fill-mode.css?ver=1.0">
 </head>
@@ -13,12 +15,16 @@
         <section id="content">
             <h1>Animation-Fill-Mode</h1>
 
-            <div>
-                hat's great, but it doesn't work right yet. Notice how the animation resets after 500ms has passed, causing the button to revert back to the original color. You want the button to stay highlighted.
+            <div class="card">
+                That's great, but it doesn't work right yet. 
+                Notice how the animation resets after 500ms has passed, causing the button to revert back 
+                to the original color. You want the button to stay highlighted.
 
-This can be done by setting the animation-fill-mode property to forwards. The animation-fill-mode specifies the style applied to an element when the animation has finished. You can set it like so:
+                This can be done by setting the animation-fill-mode property to forwards. 
+                The animation-fill-mode specifies the style applied to an element when the animation has finished. 
+                You can set it like so:
 
-animation-fill-mode: forwards;
+                <p><code>animation-fill-mode: forwards;</code></p>
             </div>
 
             <button>Play me!</button>

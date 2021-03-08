@@ -10,3 +10,10 @@
     right: 40px;
     top: 60px;
 }
+
+.fullCard {
+    width: 75%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+}

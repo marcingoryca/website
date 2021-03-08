@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 4em;
     font-family: "Source Sans Pro";
     font-weight: bold;
 }
@@ -40,9 +40,10 @@ h6 {
 /* ---- LINE ---- */
 hr {
     display: block;
-    background: white;
-    height: 0.2em;
-    width: 100%;
+    height: 1px;
+    width: 65%;
+    background-color: gray;
+    border: none;
 }
 
 /* ---- LINKS ---- */
@@ -73,6 +74,53 @@ footer {
     width: 100%;
     height: 300px;
 }
+#code {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /*background-color: rgba(240, 248, 246, 255); */
+    padding: 36px;
+    display: grid;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#art {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* background-color: rgba(239, 229, 219, 255); */
+    padding: 36px;
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr); */
+    padding: 0 200px 0 200px;
+}
+#hobbies {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* background-color: rgba(229, 219, 209, 255); */
+    padding: 36px;
+    display: grid;
+    padding: 0 200px 0 200px;
+}
+#social {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* background-color: rgba(219, 209, 199, 255); */
+    padding: 36px;
+    display: grid;
+    padding: 0 200px 0 200px;
+}
+#contact {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* background-color: rgba(209, 199, 189, 255); */
+    padding: 36px;
+    display: grid;
+    padding: 0 200px 0 200px;
+}
 
 /* ---- LIST ---- */
 ul {
@@ -84,7 +132,11 @@ ul li {
 }
 
 i.fas, i.fab {
-    font-size: 2.4em;
+    font-size: 6em;
+    color: rgba(90,90,90,255);
+}
+i.fas_small, i.fab_small {
+    font-size: 1.4em;
 }
 
 span {
@@ -102,9 +154,14 @@ span {
     margin-top: 80px;
     padding-left: 100px;
     display: grid;
-    width: 90%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 60px 60px 60px;
     font-size: 12px;
-    justify-self: center;
+    /*justify-self: center;*/
+}
+
+#code > p {
+    position: absolute;
+    right: 30px;
+    bottom: 16px;
 }

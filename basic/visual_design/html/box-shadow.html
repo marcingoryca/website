@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box-Shadow</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/box-shadow.css">
 </head>
@@ -28,23 +29,27 @@
 
               <div class="fullCard">
                 <p>
-                    The box-shadow property applies one or more shadows to an element.
+                    The <kbd>box-shadow</kbd> property applies one or more shadows to an element.
 
-The box-shadow property takes values for
+                  The box-shadow property takes values for
+                  <ul>
+                  <li>offset-x (how far to push the shadow horizontally from the element),</li>
+                  <li>offset-y (how far to push the shadow vertically from the element),</li>
+                  <li>blur-radius,</li>
+                  <li>spread-radius</li>
+                  <li>color</li>
+                  </ul>
+                  The blur-radius and spread-radius values are optional.
 
-offset-x (how far to push the shadow horizontally from the element),
-offset-y (how far to push the shadow vertically from the element),
-blur-radius,
-spread-radius and
-color, in that order.
-The blur-radius and spread-radius values are optional.
+                  Multiple box-shadows can be created by using commas to separate properties of each box-shadow element.
 
-Multiple box-shadows can be created by using commas to separate properties of each box-shadow element.
+                  Here's an example of the CSS to create multiple shadows with some blur, at mostly-transparent black colors:
 
-Here's an example of the CSS to create multiple shadows with some blur, at mostly-transparent black colors:
-
-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                  <code>box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);</code>
                     </p>
+              </div>
+              <div class="sampler">
+                code here
               </div>
         </section>
     </main>

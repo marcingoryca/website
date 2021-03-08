@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Absolute-Position</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">     
     <link rel="stylesheet" href="../css/main.css?ver=1.0">
     <link rel="stylesheet" href="../css/absolute-position.css?ver=1.0">
 </head>
@@ -35,9 +37,16 @@
               </div>
 
               <div class="fullCard">
-                The next option for the CSS position property is absolute, which locks the element in place relative to its parent container. Unlike the relative position, this removes the element from the normal flow of the document, so surrounding items ignore it. The CSS offset properties (top or bottom and left or right) are used to adjust the position.
+                The next option for the CSS position property is <kbd>absolute</kbd>, which locks the element in place relative
+                to its parent container. 
+                Unlike the relative position, this removes the element from the normal flow of the document, 
+                so surrounding items ignore it. The CSS offset properties (<strong>top</strong> or <strong>bottom</strong> 
+                and <strong>left</strong> or <strong>right</strong>) 
+                are used to adjust the position.
 
-One nuance with absolute positioning is that it will be locked relative to its closest positioned ancestor. If you forget to add a position rule to the parent item, (this is typically done using position: relative;), the browser will keep looking up the chain and ultimately default to the body tag.
+                One nuance with absolute positioning is that it will be locked relative to its closest positioned ancestor. 
+                If you forget to add a position rule to the parent item, (this is typically done using position: relative;), 
+                the browser will keep looking up the chain and ultimately default to the body tag.
               </div>
         </section>
     </main>

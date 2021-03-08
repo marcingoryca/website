@@ -1,4 +1,35 @@
 /* Main style for Visual Design */
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    display: inline-block;
+    padding: 6px;
+    background-color: orange;
+}
+code {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+.card {
+    width: 50%;
+    border: 1px solid;
+    padding: 20px;
+}
+strong {
+    color: blueviolet;
+}
+kbd {
+    font-size: 1.6em;
+    background-color: yellowgreen;
+    padding: 4px;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
 }
