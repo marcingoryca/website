@@ -8,25 +8,22 @@ h1, h2, h3, h4, h5, h6, p, ul {
 body {
     font-family: "Open Sans", serif;
     font-weight: bold;
-    color: crimson;
+    color: rgb(10,10,10);
 }
 /* ---- HEADINGS ---- */
 h1 {
     font-family: "Source Sans Pro";
     font-weight: bold;
-    font-size: 6.1em;
+    font-size: 5em;
 }
-
 h2 {
     font-size: 4em;
     font-family: "Source Sans Pro";
     font-weight: bold;
 }
-
 h3 {
     font-size: 1.4em;
 }
-
 h5 {
     font-family: "Source Sans Pro";
     font-weight: bold;
@@ -36,16 +33,14 @@ h6 {
     font-family: "Source Sans Pro";
     font-weight: bold;
 }
-
 /* ---- LINE ---- */
 hr {
     display: block;
     height: 1px;
-    width: 65%;
+    width: 85%;
     background-color: gray;
     border: none;
 }
-
 /* ---- LINKS ---- */
 a {
     color: crimson;
@@ -55,20 +50,28 @@ a:hover {
     color: crimson;
     border: none;
 }
-
 /* ---- HEADER ---- */
 header {
     width: 100%;
     height: 300px;
     padding: 30px;
 }
-
+header > div:first-of-type {
+    margin-top: 28px;
+}
+header > div {
+    margin-left: 16px;
+}
 /* ---- FOOTER ---- */
 footer {
+    padding: 60px;
     text-align: center;
+    background-color: rgb(122,122,122);
     /*position: relative;*/
 }
-
+footer > h6 {
+    margin-top: 40px;
+}
 /* ---- SECTION CLASS ---- */
 .wall {
     width: 100%;
@@ -121,45 +124,38 @@ footer {
     display: grid;
     padding: 0 200px 0 200px;
 }
-
 /* ---- LIST ---- */
 ul {
     list-style: none;
 }
-
 ul li {
     display: block;
 }
-
 i.fas, i.fab {
-    font-size: 6em;
+    font-size: 3.8em;
     color: rgba(90,90,90,255);
 }
 i.fas_small, i.fab_small {
     font-size: 1.4em;
 }
-
 span {
     font-size: 1.2em;
     padding-left: 25px;
     vertical-align: top;
 }
-
 .huge-icon {
     font-size: 3.5em;
 }
-
 /* ---- GRID ---- */
 #social-container {
     margin-top: 80px;
     padding-left: 100px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px 60px 60px;
     font-size: 12px;
     /*justify-self: center;*/
 }
-
 #code > p {
     position: absolute;
     right: 30px;
