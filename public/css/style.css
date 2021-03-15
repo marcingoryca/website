@@ -14,7 +14,10 @@ body {
 h1 {
     font-family: "Source Sans Pro";
     font-weight: bold;
-    font-size: 5em;
+    font-size: 3em;
+    padding: 16px;
+    background-color: rgba(25, 100, 255, 255);
+    display: inline-block;
 }
 h2 {
     font-size: 4em;
@@ -43,11 +46,11 @@ hr {
 }
 /* ---- LINKS ---- */
 a {
-    color: crimson;
+    color: rgb(221, 214, 215);
     border: none;
 }
 a:hover {
-    color: crimson;
+    color: rgb(211, 173, 180);
     border: none;
 }
 /* ---- HEADER ---- */
@@ -62,9 +65,22 @@ header > div:first-of-type {
 header > div {
     margin-left: 16px;
 }
+nav {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgba(10, 85, 255, 255);
+    border-radius: 2px;
+    width: 120px;
+    /*margin-left: 1px;*/
+}
 /* ---- FOOTER ---- */
 footer {
-    padding: 60px;
+    padding-top: 60px;
     text-align: center;
     background-color: rgb(122,122,122);
     /*position: relative;*/
@@ -93,8 +109,8 @@ footer > h6 {
     height: 600px;
     /* background-color: rgba(239, 229, 219, 255); */
     padding: 36px;
-    display: grid;
-    /*grid-template-columns: repeat(3, 1fr); */
+    /*display: flex;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
     padding: 0 200px 0 200px;
 }
 #hobbies {
@@ -139,7 +155,7 @@ i.fas_small, i.fab_small {
     font-size: 1.4em;
 }
 span {
-    font-size: 1.2em;
+    font-size: 1em;
     padding-left: 25px;
     vertical-align: top;
 }
@@ -160,4 +176,14 @@ span {
     position: absolute;
     right: 30px;
     bottom: 16px;
+}
+.inrow {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.work_in_progress {
+    color: crimson;
+    text-align: center;
+    background-color: rgba(0,0,0,255);
 }
