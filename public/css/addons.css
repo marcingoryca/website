@@ -1,0 +1,13 @@
+/** ADDONS */
+.circle {
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,255);
+}
+.circle2em {
+    width: 2em;
+    height: 2em;
+}
+.circle1em {
+    width: 1em;
+    height: 1em;
+}
