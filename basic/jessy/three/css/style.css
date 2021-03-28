@@ -1,0 +1,9 @@
+/* Style for THREE.js */
+body {
+    font-family: "Open Sans";
+}
+canvas {
+    background: black;
+    width: 98%;
+    height: 89%;
+}

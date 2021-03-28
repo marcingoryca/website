@@ -228,7 +228,7 @@ span {
     justify-content: space-around;
 }
 .work_in_progress {
-    color: crimson;
+    color: azure;
     text-align: center;
     background-color: rgba(0,0,0,255);
 }
