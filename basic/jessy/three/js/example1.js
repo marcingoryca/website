@@ -50,33 +50,34 @@
         camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
         camera.position.z = 2;
 
-        light.position.set(-1, 2, 4);
+        /*light.position.set(-1, 2, 4);
         mesh2.position.x = -2;
         mesh3.position.x = 2;
         mesh3.position.y = 1;
-        mesh3.position.z = -1;
+        mesh3.position.z = -1;*/
 
         scene = new THREE.Scene();
 
         renderer = new THREE.WebGLRenderer({canvas});
         renderer.setSize(window.innerWidth, window.innerHeight);
+        /*
         scene.add(mesh);
         scene.add(mesh2);
         scene.add(mesh3);
-        scene.add(light);
+        scene.add(light);*/
         requestAnimationFrame(render);
     }
 
     let render = function(time) {
         time *= 0.0006;
-        mesh.rotation.x = time;
+        /*mesh.rotation.x = time;
         mesh.rotation.y = time;
 
         mesh2.rotation.z = time;
         mesh2.rotation.x = time;
 
         mesh3.rotation.y = time;
-        mesh3.rotation.z = time;
+        mesh3.rotation.z = time;*/
         renderer.render(scene, camera);
         requestAnimationFrame(render);
     }
