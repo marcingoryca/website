@@ -43,7 +43,7 @@
 
     // light 
     lightColor = 0xFFFFFF;
-    intensity = 1;
+    intensity = 4;
     const light = new THREE.DirectionalLight(lightColor, intensity);
 
     let init = function() {
