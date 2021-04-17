@@ -17,6 +17,7 @@
                     <li><a href="forms.php" title="Forms">Forms</a></li>
                     <li><a href="post.php" title="Post Example">Post Example</a></li>
                     <li><a href="get.php" title="Get Example">Get Example</a></li>
+                    <li><a href="validation.php" title="Form validation">Form Validation</a></li>
                 </ol>
             </nav>
         </header>
