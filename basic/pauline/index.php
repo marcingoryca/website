@@ -17,7 +17,11 @@
                     <li><a href="forms.php" title="Forms">Forms</a></li>
                     <li><a href="post.php" title="Post Example">Post Example</a></li>
                     <li><a href="get.php" title="Get Example">Get Example</a></li>
+<<<<<<< HEAD
                     <li><a href="date.php" title="Date Example">Date Example</a></li>
+=======
+                    <li><a href="validation.php" title="Form validation">Form Validation</a></li>
+>>>>>>> 02f7396bf43bfa1fc597cef5f78744948ffc6423
                 </ol>
             </nav>
         </header>
