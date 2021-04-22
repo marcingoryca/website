@@ -20,6 +20,8 @@
                     <li><a href="date.php" title="Date Example">Date Example</a></li>
                     <li><a href="validation.php" title="Form validation">Form Validation</a></li>
                     <li><a href="time.php" title="Time">Time</a></li>
+                    <li><a href="include.php" title="Include">Include</a></li>
+                    <li><a href="require.php" title="Require">Require</a></li>
                 </ol>
             </nav>
         </header>

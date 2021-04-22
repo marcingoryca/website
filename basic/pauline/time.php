@@ -29,6 +29,14 @@ define('PAGETITLE', 'Time');
                   echo date('H a') . '<br>';
             ?>
         </div>
+
+        <div id="mktime">
+            <p>
+            <?php
+                echo mktime(20); 
+            ?>
+            </p>
+        </div>
     </section>
 </main>
     
