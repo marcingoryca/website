@@ -2,6 +2,7 @@
 (function () {
     "use strict";
 
+    // Basic Array of music genres
     let musicGenre = [
         "rock",
         "pop",
@@ -66,4 +67,19 @@
     for (let i = 0; i < musicGenre.length; ++i) {
         console.log(musicGenre[i]);
     }
+
+    // Concatenation
+    // Array.concat()
+    let musicGenre_Copy = musicGenre.concat();
+
+    console.log(musicGenre_Copy);
+
+    //musicGenre_Copy.forEach();
+
+    // IndexOf
+    console.log("Index of rock => " + musicGenre_Copy.indexOf("rock"));
+
+    console.log("Index of metal => " + musicGenre_Copy.indexOf("metal"));
+
+    console.log("Includes => " + musicGenre_Copy.includes("pop", 3));
 })();
