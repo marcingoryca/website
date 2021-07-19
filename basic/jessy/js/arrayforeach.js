@@ -8,7 +8,4 @@
 
     users.forEach();
 
-    function add(letter) {
-        
-    }
 })();

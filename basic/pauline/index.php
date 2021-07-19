@@ -22,6 +22,7 @@
                     <li><a href="time.php" title="Time">Time</a></li>
                     <li><a href="include.php" title="Include">Include</a></li>
                     <li><a href="require.php" title="Require">Require</a></li>
+                    <li><a href="files.php" title="File Handling">File Handling</a></li>
                 </ol>
             </nav>
         </header>
@@ -29,5 +30,9 @@
         
         </section>
     </main>
+    <footer>
+        <p>Compilation of sources: <a href="w2schools.com" title="W3Schools">w2schools.com</a>, 
+            <a href="php.net" title="PHP.net">php.net</a></p>
+    </footer>
 </body>
 </html>
