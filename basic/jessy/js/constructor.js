@@ -25,7 +25,7 @@
     console.log(b.creationDate);
 
     function Calculator() {
-
+        /*
         this.read = function() {
             this.number1 = +prompt("Number 1", 0);
             this.number2 = +prompt("Number 2", 0);
@@ -38,6 +38,7 @@
         this.mul = function() {
             return this.number1 * this.number2;
         }
+        */
     };
 
     let c = new Calculator();
@@ -48,11 +49,13 @@
     //console.log(c.mul());
 
     function Accumulator(startingValue) {
+        /*
         this.value = startingValue;
 
         this.read = function() {
             this.value += +prompt("New value", 0);
         }
+        */
     }
 
     let d = new Accumulator(250);

@@ -33,3 +33,18 @@ kbd {
 .bold {
     font-weight: bold;
 }
+
+.block {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+  .red {
+    background: red;
+  }
+  .yellow {
+    background: yellow;
+  }
+  .green {
+    background: green;
+  }

@@ -218,11 +218,12 @@ span {
     font-size: 12px;
     /*justify-self: center;*/
 }
+/*
 #code > p {
     position: absolute;
     right: 30px;
     bottom: 16px;
-}
+}*/
 .inrow {
     padding-top: 200px;
     display: flex;

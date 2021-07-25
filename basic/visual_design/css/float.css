@@ -1,13 +1,29 @@
 /* Float.css */
 #left {
     float: left;
-    width: 50%;
-  }
-  #right {
-    float: right;
-    width: 40%;
-  }
-  aside, section {
-    padding: 2px;
-    background-color: #ccc;
-  }
+    width: 70%;
+}
+#right {
+  float: right;
+  width: 50%;
+}
+aside, section {
+  padding: 2px;
+  background-color: #ccc;
+}
+
+div.fullCard:before {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+#block1 {
+  float: left;
+}
+#block2 {
+  float: right;
+}
+#block3:after {
+  clear: both;
+}
