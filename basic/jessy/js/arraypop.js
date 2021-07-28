@@ -23,4 +23,14 @@
     let red = colors.pop();
 
     console.log(colors);
+
+    // Okay, now we add black to the array
+    colors.push(black, blue);
+
+    console.log(colors);
+
+    colors.pop();
+
+    console.log(colors);
+
 })(); 
