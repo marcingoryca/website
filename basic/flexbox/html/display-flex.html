@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display-Flex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css?ver=1.0">
     <link rel="stylesheet" href="../css/display-flex.css?ver=1.0">
 </head>
@@ -13,13 +16,32 @@
         <section id="content">
             <h1>Display-Flex</h1>
 
-            <div>
-                This section uses alternating challenge styles to show how to use CSS to position elements
-                 in a flexible way. First, a challenge will explain theory, then a practical challenge using 
-                 a simple tweet component will apply the flexbox concept.
+            <div class="code">
+            <pre>
+                <code>
+                    #box-container {
+                        height: 500px;
+                        display: flex;
+                    }
 
-                 Placing the CSS property display: flex; on an element allows you to use other flex properties 
-                 to build a responsive page.
+                    #box-1 {
+                        background-color: dodgerblue;
+                        width: 50%;
+                        height: 50%;
+                    }
+
+                    #box-2 {
+                        background-color: orangered;
+                        width: 50%;
+                        height: 50%;
+                    }
+                </code>
+            </pre>
+            </div>
+
+            <div>
+                Placing the CSS property <span class="fs13">display: flex;</span> on an element
+                allows you to use other flex properties to build a responsive page.
             </div>
 
             <div id="box-container">
