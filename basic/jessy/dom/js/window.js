@@ -1,7 +1,7 @@
 (function () {
     "use strict";
     // Browser type
-    console.log("Browser:" + window.navigator.appName);
+    console.log("Browser:" + window.navigator);
 
     // Browser Codename
     console.log("Browser Codename: " + window.navigator.appCodeName);
