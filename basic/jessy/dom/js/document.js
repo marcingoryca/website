@@ -1,4 +1,4 @@
-(function () {
+/* (function () {
     "use strict";
 
     console.log(document);
@@ -32,4 +32,14 @@
 
     console.log(document.head.parentElement);
     console.log(document.head.parentNode);
-})();
+})(); */
+
+const html = document.documentElement;
+const body = document.body;
+const head = document.head;
+
+console.log(html);
+
+console.log(body);
+
+console.log(head);
