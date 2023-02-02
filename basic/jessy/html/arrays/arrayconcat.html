@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array.concat()</title>
+    <link rel="stylesheet" href="../../css/jessymain.css">
+</head>
+<body>
+    <main>
+        <section id="content">
+            <code>
+                <pre>
+                    Array.concat();
+
+                    concat() method creates new array that includes values from other arrays and additional items.
+                    let movies = ['Final Destination', 'Showgirls', 'Interview with Vampire', 'Terminator'];
+                     let x = movies.concat();
+                     //console.log(x);
+                     let y = movies.concat('Dirty Dancing', 'Pulp Fiction');
+                    //console.log(movies);
+                    //console.log(y);
+                    let z = movies.concat(x, y, ['Rainman', 'Kill Bill']);
+                    //console.log(z);
+
+                </pre>
+            </code>
+            <div id="">
+
+            </div>
+        </section>
+    </main>
+    <script>
+        // Array.concat()
+        // Create new array from other arrays and with additional items
+        let movies = ['Final Destination', 'Showgirls', 'Interview with Vampire', 'Terminator'];
+        let x = movies.concat();
+        //console.log(x);
+        let y = movies.concat('Dirty Dancing', 'Pulp Fiction');
+        //console.log(movies);
+        //console.log(y);
+        let z = movies.concat(x, y, ['Rainman', 'Kill Bill']);
+        //console.log(z);
+
+        document.write("<h2>" + movies + "</h2>");
+        document.write("<h3>" + x + "</h3>");
+        document.write("<h2>" + y + "</h2>");
+        document.write("<h2>" + z + "</h2>");
+    </script>
+</body>
+</html>
