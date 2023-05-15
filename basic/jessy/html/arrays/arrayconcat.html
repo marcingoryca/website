@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Array.concat()</title>
-    <link rel="stylesheet" href="../../css/jessymain.css">
 </head>
 <body>
     <main>
@@ -41,11 +40,14 @@
         //console.log(y);
         let z = movies.concat(x, y, ['Rainman', 'Kill Bill']);
         //console.log(z);
+        const s = movies.concat('Kate');
+        
 
         document.write("<h2>" + movies + "</h2>");
         document.write("<h3>" + x + "</h3>");
         document.write("<h2>" + y + "</h2>");
         document.write("<h2>" + z + "</h2>");
+        document.write(s);
     </script>
 </body>
 </html>

@@ -11,6 +11,15 @@
             <h1>Arrow Functions</h1>
         </section>
     </main>
-    <script src="../js/arrowfunctions.js"></script>
+    <script>
+        "use strict";
+        let f1 = () => console.log('Hello, World!');
+        f1();
+        let f2 = (a, b) => a**b;
+        let a = f2(2,6);
+        console.log(a);
+        const aplusb = (a, b) => a +b;
+        document.write(aplusb(3,8));
+    </script>
 </body>
 </html>
