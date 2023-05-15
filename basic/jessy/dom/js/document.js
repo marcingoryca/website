@@ -1,4 +1,4 @@
-(function () {
+/* (function () {
     "use strict";
     /*
     render(document);
@@ -48,9 +48,6 @@
 
     const name = document.forms.enterName.Name;
 
-    name.oninput = function() {
-        //console.log(name.value);
-        const myContent = document.getElementById('myContent');
-        myContent.textContent = name.value;
-    };
+    console.log(document.head.parentElement);
+    console.log(document.head.parentNode);
 })();

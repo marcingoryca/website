@@ -1,9 +1,10 @@
-( function() {
+( function () {
     "use strict";
+    let a = "Leo";
+    let b = "Maria";
 
-    let a = 'Marianna';
-    let b = 'Leo';
-
-    console.log('%cNames', 'color: red; font-weight: bold; font-decoration: underline');
+    console.log('Names: ', 'color: red; font-weight: bold; text-decoration: underline; font-size: 14px;');
     console.log({a, b});
+
+    console.table([a, b]);
 })();
