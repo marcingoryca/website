@@ -1,4 +1,4 @@
-/* (function () {
+(function () {
     "use strict";
     /*
     render(document);
@@ -45,9 +45,4 @@
             console.log(name.value);
         };
     }
-
-    const name = document.forms.enterName.Name;
-
-    console.log(document.head.parentElement);
-    console.log(document.head.parentNode);
 })();

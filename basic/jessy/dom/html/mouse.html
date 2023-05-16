@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Mouse</title>
+    <style>
+        .wide {
+            width: 300px;
+            height: 400px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mouse Events</h1>
+    </header>
+
+    <main>
+        <section>
+            <div id="one" class="wide" oncontextmenu="onContext()" 
+                                       onclick="onClick()" 
+                                       ondblclick="onDblClick()"
+                                       onmouseover="onMouseOver()"
+                                       onmouseout="onMouseOut()"
+                                       onmousedown="onMouseDown()"
+                                       onmouseup="onMouseUp()"
+                                       onmousemove="onMouseMove()">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        "use strict"
+
+        const one = document.getElementById("one");
+
+        const onContext = function() {
+            alert("your context menu:");
+        }
+
+        const onClick = function() {
+            one.style.backgroundColor = "yellow";
+        }
+
+        const onDblClick = function() {
+            one.style.backgroundColor = "red";
+        }
+
+        const onMouseOver = function() {
+            one.style.border="1px solid pink";
+        }
+
+        const onMouseOut = function() {
+            one.style.border="none";
+        }
+
+        const onMouseDown = function() {
+            one.style.backgroundImage="auto.jpg";
+        }
+
+        const onMouseUp = function() {
+            alert("I'm listening to Type O Negative right now!");
+        }
+
+        const onMouseMove = function() {
+            //console.log(Math.random());
+            //let r = Math.random()*100;
+            //let g = Math.random()*100;
+            //let b = Math.random()*100; 
+            //one.style.backgroundColor=
+        }
+    </script>
+</body>
+</html>
